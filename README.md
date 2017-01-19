@@ -10,5 +10,7 @@ W przypadku nieznalezienia jakiegoś produkty do numeru zamówienia zostanie dod
 Program można uruchomić z trzema opcjami (w celu uruchamiania go z linii komend lub skryptu )np. 
 
 java -jar WooRepl.jar z – pobiera zamówienia i zapisuję je do bazy 
+
 java -jar WooRepl.jar o – aktualizuje stany na sklepie pojedynczo  
+
 java -jar WooRepl.jar a - aktualizuje stany na sklepie w pakietach (patrz opcja packet w konfiguracji) 

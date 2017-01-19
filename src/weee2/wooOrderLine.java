@@ -15,7 +15,7 @@ int id;
 String subtotal;
 String subtotal_tax;
 String total;
-String tax_level;
+String total_tax;
 String price;
 int quantity;
 String tax_class;
@@ -23,6 +23,7 @@ String name;
 int product_id;
 String PcmTowId;
 String sku;
+String tax_level;
 
     public wooOrderLine(int id, String total, String price, int quantity, String name, int product_id) {
         this.id = id;
@@ -31,6 +32,14 @@ String sku;
         this.quantity = quantity;
         this.name = name;
         this.product_id = product_id;
+    }
+
+    public String getTax_level() {
+        return tax_level;
+    }
+
+    public void setTax_level(String tax_level) {
+        this.tax_level = tax_level;
     }
 
     public String getPcmTowId() {
@@ -74,12 +83,12 @@ String sku;
         this.total = total;
     }
 
-    public String getTax_level() {
-        return tax_level;
+    public String getTotal_tax() {
+        return total_tax;
     }
 
-    public void setTax_level(String tax_level) {
-        this.tax_level = tax_level;
+    public void setTotal_tax(String total_tax) {
+        this.total_tax = total_tax;
     }
 
     public String getPrice() {
@@ -129,6 +138,8 @@ String sku;
     public void setSku(String sku) {
         this.sku = sku;
     }
+
+ 
 
     
 }

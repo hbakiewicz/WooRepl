@@ -15,6 +15,8 @@ java -jar WooRepl.jar o – aktualizuje stany na sklepie pojedynczo
 
 java -jar WooRepl.jar a - aktualizuje stany na sklepie w pakietach (patrz opcja packet w konfiguracji) 
 
+Program jest udostępniony tak jak jest bez żadnej odpowiedzialności za jego działanie, masz uwagi pisz : mbakiewicz@gmail.com
+
 skompilowana wersja jest tu 
 
 https://drive.google.com/drive/folders/0ByA297cCa529YjdfcnBkbkZ5VGc?usp=sharing

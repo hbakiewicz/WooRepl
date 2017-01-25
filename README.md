@@ -14,3 +14,7 @@ java -jar WooRepl.jar z – pobiera zamówienia i zapisuję je do bazy
 java -jar WooRepl.jar o – aktualizuje stany na sklepie pojedynczo  
 
 java -jar WooRepl.jar a - aktualizuje stany na sklepie w pakietach (patrz opcja packet w konfiguracji) 
+
+skompilowana wersja jest tu 
+
+https://drive.google.com/drive/folders/0ByA297cCa529YjdfcnBkbkZ5VGc?usp=sharing
